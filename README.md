@@ -33,8 +33,8 @@ Resources Deployed:
 Problem: The VM's Nginx server was not accessible via its external IP.
 
 Diagnosis: curl localhost on the VM succeeded, confirming the issue was not the script itself, but how Terraform parsed it.
-Root Causes:
-    
+
+    Root Causes:  
     1.  Indentation: The EOT marker in the HereDoc operator was misaligned, causing a parsing error.
     2.  Line Endings: The script used Windows CRLF line endings, which Linux VMs do not recognize.
 
@@ -47,4 +47,10 @@ Solution:
 *Best Practice: Use the file() function to read startup scripts from a separate .sh file, avoiding these parsing issues.*
 
 ## Deliverables:
-Deployment 
+- Successful deployment of terraform showing the output and file created
+- In one folder called “infra” or “terraform” or similar containing terraform code
+- Provider terraform configuration file
+- Use a .gitignore
+- GCP VPC terraform configuration file
+- Text file made by terraform from the local_file resource
+- Output block of your VPC’s name in GCP
