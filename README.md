@@ -4,8 +4,8 @@ A step-by-step deployment of cloud infrastructure via Terraform &amp; troublshoo
 ## Programs & Tools used:
 - GitBash
 - Google Chrome browser
-    - (Github.com)
-    - (Hashicorp website)
+    - (Github.com [Theo's SEIR-1 Repo])
+    - (Hashicorp website [Terraform Registry])
 - Google Cloud console
 - Terraform
 - Visual Studio Code
