@@ -49,8 +49,8 @@ Solution:
 ## Deliverables:
 - Successful deployment of terraform showing the output and file created [(here)]()
 - In one folder called “infra” or “terraform” or similar containing terraform code [(here)]()
-- Provider terraform configuration file [(here)]()
+- Provider terraform configuration file with the latest version of the Google provider [(here)]()
 - Use a .gitignore [(here)]()
-- GCP VPC terraform configuration file [(here)]()
-- Text file made by terraform from the local_file resource [(here)]()
-- Output block of your VPC’s name in GCP [(here)]()
+- GCP VPC terraform configuration file using example code from the Terraform Registry  [(here)]()
+- Text file made by terraform from the local_file resource with your favorite food in it [(here)]()
+- Output block of your VPC’s name in GCP using Terraform [(here)]()
