@@ -47,10 +47,10 @@ Solution:
 *Best Practice: Use the file() function to read startup scripts from a separate .sh file, avoiding these parsing issues.*
 
 ## Deliverables:
-- Successful deployment of terraform showing the output and file created [here]()
-- In one folder called “infra” or “terraform” or similar containing terraform code [here]()
-- Provider terraform configuration file [here]()
-- Use a .gitignore [here]()
-- GCP VPC terraform configuration file [here]()
-- Text file made by terraform from the local_file resource [here]()
-- Output block of your VPC’s name in GCP [here]()
+- Successful deployment of terraform showing the output and file created [(here)]()
+- In one folder called “infra” or “terraform” or similar containing terraform code [(here)]()
+- Provider terraform configuration file [(here)]()
+- Use a .gitignore [(here)]()
+- GCP VPC terraform configuration file [(here)]()
+- Text file made by terraform from the local_file resource [(here)]()
+- Output block of your VPC’s name in GCP [(here)]()
