@@ -30,7 +30,21 @@ Resources Deployed:
     Outputs: An outputs.tf file to retrieve the VM's name, IP, and SSH command directly from the terminal.
 
 ## Troubleshooting:
-Deployment 
+Problem: The VM's Nginx server was not accessible via its external IP.
+
+Diagnosis: curl localhost on the VM succeeded, confirming the issue was not the script itself, but how Terraform parsed it.
+Root Causes:
+    
+    1.  Indentation: The EOT marker in the HereDoc operator was misaligned, causing a parsing error.
+    2.  Line Endings: The script used Windows CRLF line endings, which Linux VMs do not recognize.
+
+Solution:
+    
+    1.  Fix Indentation: Align EOT with the start of the metadata block (no spaces).
+    2.  Change Line Endings: In VS Code, change the file's line ending from CRLF to LF.
+    3.  Re-deploy: Use terraform taint to force a VM recreation, then terraform apply.
+
+*Best Practice: Use the file() function to read startup scripts from a separate .sh file, avoiding these parsing issues.*
 
 ## Deliverables:
 Deployment 
