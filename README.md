@@ -47,10 +47,10 @@ Solution:
 *Best Practice: Use the file() function to read startup scripts from a separate .sh file, avoiding these parsing issues.*
 
 ## Deliverables:
-- Successful deployment of terraform showing the output and file created [(here)]()
-- In one folder called “infra” or “terraform” or similar containing terraform code [(here)]()
-- Provider terraform configuration file with the latest version of the Google provider [(here)]()
-- Use a .gitignore {remote backend is commented out} [(here)]()
-- GCP VPC terraform configuration file using example code from the Terraform Registry  [(here)]()
-- Text file made by terraform from the local_file resource with your favorite food in it [(here)]()
-- Output block of your VPC’s name in GCP using Terraform [(here)]()
+- Successful deployment of terraform showing the output and file created [(here)](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/successful-deploy-tf.png)
+- In one folder called “infra” or “terraform” or similar containing terraform code [(here)](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/infra-folder.png)
+- Provider terraform configuration file with the latest version of the Google provider [(here)](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/providers-proof-file.png)
+- Use a .gitignore {remote backend is commented out} [(here)](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/gitignore-no-backend.png)
+- GCP VPC terraform configuration file using example code from the Terraform Registry  [(here)](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/vpc-proof.png)
+- [Text file](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/fav_food_text_file.png) made by terraform from the [local_file resource](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/local_file-resource.png) with your favorite food in it
+- Output block of your VPC’s name in GCP using Terraform [(here)](https://github.com/millertyme314-oss/Week7-visual-proof/blob/main/Vpc-name-output-block.png)
