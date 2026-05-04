@@ -1,5 +1,5 @@
 # Week7_Hw_Class7.5
-A step-by-step deployment of cloud infrastructure via Terraform &amp; troublshooting
+A step-by-step deployment of cloud infrastructure via Terraform &amp; troubleshooting
 
 ## Programs & Tools used:
 - GitBash
